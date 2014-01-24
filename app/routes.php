@@ -100,5 +100,3 @@ Route::get('/uadmin_home', array(
 Route::get('/uadmin_conversations', 'UniversityAdminController@showUAdminConversations');
 Route::get('/uadmin_manage_alumni', 'UniversityAdminController@showUManageAdminAlumni');
 Route::get('/uadmin_statistics', 'UniversityAdminController@showUAdminStats');
-
-/*End University Admin*/
